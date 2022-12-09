@@ -67,7 +67,7 @@
                     echo "<div class='error'>Album not found.</div>";
                 }
             ?>
-            div class="clearfix"></div>
+            <div class="clearfix"></div>
         </div>
     </section>
 

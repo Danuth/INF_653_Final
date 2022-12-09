@@ -3,10 +3,10 @@
     session_start();
 
     // store non-repeating values
-    define('SITEURL', 'http://localhost/INF_653_Final/offwind/');
+    define('SITEURL', 'http://localhost:8080/INF_653_Final/offwind/');
     define('LOCALHOST', 'localhost');
     define('DB_USERNAME', 'root');
-    define('DB_PASSWORD', 'root');
+    define('DB_PASSWORD', '');
     define('DB_NAME', 'offwind');
     
     $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysqli_error()); // database connection

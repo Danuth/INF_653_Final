@@ -2,7 +2,7 @@
 <?php include('partials-front/navbar.php'); ?>
 
     <section class="categories">
-        <div class="container">
+        <div class="container album-menu">
             <h2 class="text-center">Groups</h2>
 
             <?php 
