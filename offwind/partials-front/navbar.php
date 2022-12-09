@@ -14,7 +14,7 @@
         <section class="navbar">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html" class="logo">Off<span>Wind</span></a>
+                    <a href="<?php echo SITEURL; ?>" class="logo">Off<span>Wind</span></a>
                 </div>
 
                 <div class="navbar text-right">

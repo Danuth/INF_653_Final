@@ -11,11 +11,10 @@
     </head>
     
     <body>
-        <!-- Navbar Section Starts -->
         <div class="menu text-center">
             <div class="wrapper">
                 <ul>
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Dashboard</a></li>
                     <li><a href="manage-user.php">User</a></li>
                     <li><a href="manage-group.php">Group</a></li>
                     <li><a href="manage-album.php">Album</a></li>
@@ -24,4 +23,3 @@
                 </ul>
             </div>
         </div>
-        <!-- Navbar Section Ends -->

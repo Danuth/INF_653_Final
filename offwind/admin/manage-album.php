@@ -101,7 +101,7 @@
                             <td><?php echo $active; ?></td>
                             <td>
                                 <a href="<?php echo SITEURL; ?>admin/update-album.php?id=<?php echo $id; ?>" class="btn-secondary">Update</a>
-                                a href="<?php echo SITEURL; ?>admin/delete-album.php?id=<?php echo $id; ?>&image_name=<?php echo $image_name; ?>" class="btn-danger">Delete</a>
+                                <a href="<?php echo SITEURL; ?>admin/delete-album.php?id=<?php echo $id; ?>&image_name=<?php echo $image_name; ?>" class="btn-danger">Delete</a>
                             </td>
                         </tr>
 
