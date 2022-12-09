@@ -1,6 +1,6 @@
 
 
-/* CSS for All */
+/* All */
 *{
     margin: 0 0;
     padding: 0 0;
@@ -138,7 +138,7 @@ fieldset{
 }
 
 
-/* CSS for album SEarch Section */
+/* album SEarch Section */
 
 .album-search{
     background-image: url(../images/background.jpg);
@@ -157,7 +157,7 @@ fieldset{
 }
 
 
-/* CSS for Categories */
+/* Categories */
 .categories{
     padding: 4% 0;
 }
@@ -169,7 +169,7 @@ fieldset{
 }
 
 
-/* CSS for album Menu */
+/* album Menu */
 .album-menu{
     background-color: #ececec;
     padding: 4% 0;
@@ -203,7 +203,7 @@ fieldset{
 }
 
 
-/* CSS for Social */
+/* Social */
 .social ul{
     list-style-type: none;
 }
@@ -230,9 +230,14 @@ fieldset{
     font-weight: bold;
 }
 
+.footer{
+    background-color: #f56642;
+    color: white;
+    padding: 1%;
+}
 
 
-/* CSS for Mobile Size or Smaller Screen */
+/* Mobile Size or Smaller Screen */
 
 @media only screen and (max-width:768px){
     .logo{
@@ -287,3 +292,4 @@ fieldset{
         width: 100%;
     }
 }
+

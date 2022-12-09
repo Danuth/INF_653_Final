@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 09, 2022 at 03:11 AM
+-- Generation Time: Dec 09, 2022 at 12:17 PM
 -- Server version: 8.0.31
 -- PHP Version: 7.4.26
 
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `tbl_album` (
   `featured` varchar(10) NOT NULL,
   `active` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `tbl_album`
@@ -79,7 +79,8 @@ INSERT INTO `tbl_album` (`id`, `title`, `description`, `price`, `image_name`, `g
 (20, 'I Love', '5th Mini Album', '22.50', '11_album_742.jpg', 11, 'Yes', 'Yes'),
 (21, 'Staydom', '2nd Single Album', '19.50', '13_album_13.jpg', 13, 'Yes', 'Yes'),
 (22, 'Guess Who', '4th Mini Album', '14.50', '14_album_189.jpg', 14, 'Yes', 'Yes'),
-(23, 'Mic On', '12th Mini Album', '20.50', '9_album_42.jpg', 9, 'Yes', 'Yes');
+(23, 'Mic On', '12th Mini Album', '20.50', '9_album_42.jpg', 9, 'Yes', 'Yes'),
+(24, 'Forever 1', '7th Album', '19.50', '16_album_14.jpg', 16, 'Yes', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -95,7 +96,7 @@ CREATE TABLE IF NOT EXISTS `tbl_group` (
   `featured` varchar(10) NOT NULL,
   `active` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `tbl_group`
@@ -107,7 +108,8 @@ INSERT INTO `tbl_group` (`id`, `title`, `image_name`, `featured`, `active`) VALU
 (11, '(G)Idle', '(G)Idle_236.jpg', 'Yes', 'Yes'),
 (12, 'Twice', 'Twice_686.jpg', 'Yes', 'Yes'),
 (13, 'StayC', 'StayC_419.jpg', 'Yes', 'Yes'),
-(14, 'Itzy', 'Itzy_890.jpg', 'Yes', 'Yes');
+(14, 'Itzy', 'Itzy_177.jpg', 'Yes', 'Yes'),
+(16, 'SNSD', 'SNSD_659.jpg', 'Yes', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -129,7 +131,7 @@ CREATE TABLE IF NOT EXISTS `tbl_order` (
   `customer_email` varchar(150) NOT NULL,
   `customer_address` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `tbl_order`
@@ -137,7 +139,8 @@ CREATE TABLE IF NOT EXISTS `tbl_order` (
 
 INSERT INTO `tbl_order` (`id`, `album`, `price`, `qty`, `total`, `order_date`, `status`, `customer_name`, `customer_contact`, `customer_email`, `customer_address`) VALUES
 (4, 'Mic On', '11.50', 3, '34.50', '2022-12-08 00:00:00', 'Delivered', 'test', '01234253', 'example@example.com', '14343dc'),
-(5, 'WAW', '20.00', 1, '20.00', '2022-12-09 00:00:00', 'Ordered', 'Test', '012 231 123', 'example@example.com', 'No Address');
+(5, 'WAW', '20.00', 1, '20.00', '2022-12-09 00:00:00', 'Ordered', 'Test', '012 231 123', 'example@example.com', 'No Address'),
+(6, 'WAW', '20.00', 2, '40.00', '2022-12-09 00:00:00', 'Delivered', 'Test', '0123456789', 'example@example.com', 'house # 123');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
